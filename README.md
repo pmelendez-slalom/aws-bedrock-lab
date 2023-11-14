@@ -5,7 +5,7 @@ This repository is part of the AWyeS Labs initiative, focusing on creating and d
 
 
 # Slide deck
-The slide deck for the lab can be found in the `/slides` directory. It is written in Markdown and leverages [Marp](). To build the slides, you can run the following command:
+The slide deck for the lab can be found in the `/slides` directory. It is written in Markdown and leverages [Marp](https://github.com/marp-team/marp). To build the slides, you can run the following command:
 
 ## For HTML
 ```bash
