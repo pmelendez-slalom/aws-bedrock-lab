@@ -17,3 +17,8 @@ npx @marp-team/marp-cli@latest awyes-bedrock.md --watch
 npx @marp-team/marp-cli@latest slide-deck.md --pptx --output awyes-bedrock.pptx
 ```
 
+# Before start, it is recommended to setup a virtual environment for the demo:
+```python
+python -mvenv demo-env
+source demo-env/bin/activate
+```
