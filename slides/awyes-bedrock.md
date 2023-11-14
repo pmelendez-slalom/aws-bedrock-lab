@@ -89,12 +89,8 @@ https://slalom.service-now.com/help?id=kb_article&table=kb_knowledge&sysparm_art
 
 ---
 
-## Download {repo}
-
-
----
-
-## 1.- Call Bedrock service
+## Download Repo:
+https://github.com/pmelendez-slalom/aws-bedrock-lab
 
 ---
 
@@ -102,59 +98,4 @@ https://slalom.service-now.com/help?id=kb_article&table=kb_knowledge&sysparm_art
 
 ---
 
-## TODO: Call Bedrock from our code
-
----
-
-## TODO: Snippet empty gradio
-
----
-
-## TODO: Craft prompt for Summary
-
-#### Example:
-
-```
-I want you to act as a software engineer who is analyzing a legacy source code.
-The goal is for you to identify the source code language, and explain on a high level what is the purpose of the program.
-You will follow this following template replacing {programming_language} and {description}
- with your output. Do not output anything that is not a template.
-Do not attempt to give explanations. Surround your answer with ` ` `
-
-Programming language: {programming_language}
-Description: {description}
-
-Here is an example:
-input: (define power (lambda (x, n) (if (= n 0) 1 (* x (expt x (- n 1))))))
-output:
-` ` `
-Programming language: Scheme
-Description: The program creates a function in Scheme to calculate recursively the power of a number
-` ` `
-
-input: {input}
-```
-
----
-
-## Put it all together
-
----
-
-# testing
-
-```python
-print('hello world')
-```
-
-
----
-
-```
-print ("hello")
-```
-
-
-## Let's jump into it:
-- Check that you have access to AWS 
-![bg right 25%](https://github.com/marp-team.png)
+## Time to play!
